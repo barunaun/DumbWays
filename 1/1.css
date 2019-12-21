@@ -1,0 +1,18 @@
+body {
+  margin-left: 700px;
+}
+
+.row-tab {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.button {
+  background-color: #4376c2;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}

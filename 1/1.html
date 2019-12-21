@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./1.css" />
+  </head>
+
+  <body>
+    <form id="formulir">
+      <!--Nama Lengkap-->
+      <div class="row-tab">
+        <div class="label-nama">
+          <label for="nama">Nama Lengkap</label>
+        </div>
+        <div class="input-nama">
+          <input type="text" required />
+        </div>
+      </div>
+
+      <!--Tempat Lahir-->
+      <div class="row-tab">
+        <div class="label-tempat-lahir">
+          <label for="tempat-lahir">Tempat Lahir</label>
+        </div>
+        <div class="input-tempat-lahir">
+          <select name="tempat-lahir">
+            <option value="blank"></option>
+            <option value="jakarta">JAKARTA</option>
+            <option value="bekasi">BEKASI</option>
+            <option value="bandung">BANDUNG</option>
+            <option value="yogyakarta">YOGYAKARTA</option>
+          </select>
+        </div>
+      </div>
+
+      <!--Tanggal Lahir-->
+      <div class="row-tab">
+        <div class="label-tanggal-lahir">
+          <label for="tanggal-lahir">Tanggal Lahir</label>
+        </div>
+        <div class="input-tanggal-lahir">
+          <input type="date" required />
+        </div>
+      </div>
+
+      <!--Nomor HP-->
+      <div class="row-tab">
+        <div class="label-no-hp">
+          <label for="no-hp">No. Hp</label>
+        </div>
+        <div class="input-no-hp">
+          <input type="text" />
+        </div>
+      </div>
+
+      <!--Alamat-->
+      <div class="row-tab">
+        <div class="label-Alamat">
+          <label for="alamat">Alamat</label>
+        </div>
+        <div class="input-alamat">
+          <input type="text" />
+        </div>
+      </div>
+
+      <!--Pendidikan Terakhir-->
+      <div class="row-tab">
+        <div class="label-pendidikan">
+          <label for="pendidikan">Pendidikan Terakhir</label>
+        </div>
+        <div class="input-pendidikan">
+          <select name="pendidikan-terakhir">
+            <option value="blank"></option>
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma">SMA</option>
+            <option value="d3">D3</option>
+            <option value="s1">S1</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Agama -->
+      <div class="row-tab">
+        <div class="label-agama">
+          <label>Agama</label>
+        </div>
+        <div>
+          <label class="ungu"><input type="radio" />Islam</label>
+        </div>
+        <div>
+          <label class="biru"><input type="radio" />Kristen</labelclass="ungu">
+        </div>
+        <div>
+          <label class="hijau"><input type="radio" />Katolik</label>
+        </div>
+      </div>
+
+      <!--Hobi-->
+      <div class="row-tab">
+        <div class="label-hobi">Hobi</div>
+        <div>
+          <label><input type="checkbox" />Renang</label>
+        </div>
+        <div>
+          <label><input type="checkbox" />Mancing</label>
+        </div>
+        <div>
+          <label><input type="checkbox" />Game</label>
+        </div>
+        <div>
+          <label><input type="checkbox" />Gibah</label>
+        </div>
+        <div>
+          <label><input type="checkbox" />Programming</label>
+        </div>
+      </div>
+
+      <div class="submit" value="submit">
+        <input type="submit" class="button" />
+      </div>
+    </form>
+  </body>
+</html>
